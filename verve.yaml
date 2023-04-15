@@ -1,0 +1,6 @@
+runtime:
+  python: 3.9
+
+routes:
+- path: /
+  module: wsgi:app
